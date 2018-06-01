@@ -9,7 +9,7 @@ Each locale now resides in its own directory.
 ```json
 {
   "require": {
-    "croogo/locale": "2.0.x-dev"
+    "vamshop/locale": "3.0.x-dev"
   }
 }
 ```
@@ -20,7 +20,7 @@ Add the following to `Config/bootstrap.php`
 <?php
 
 App::build(array(
-  'Locale' => array(APP . 'Vendor' . DS . 'croogo' . DS . 'locale' . DS ),
+  'Locale' => array(APP . 'Vendor' . DS . 'vamshop' . DS . 'locale' . DS ),
 ), App::APPEND);
 ```
 
