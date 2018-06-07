@@ -1,7 +1,7 @@
 {
-    "name": "croogo/locale",
-    "description": "Croogo - Translations",
-    "homepage": "http://github.com/croogo/locale",
+    "name": "vamshop/locale",
+    "description": "VamShop - Translations",
+    "homepage": "http://github.com/vamshop/locale",
     "license": "MIT",
     "authors": [
         {
@@ -21,6 +21,6 @@
         }
     ],
     "require": {
-        "croogo/croogo": "^3.0.1"
+        "vamshop/vamshop-core": "^3.0.1"
     }
 }
