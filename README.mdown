@@ -6,22 +6,8 @@ Each locale now resides in its own directory.
 
 ## Composer
 
-```json
-{
-  "require": {
-    "vamshop/locale": "3.0.x-dev"
-  }
-}
 ```
-
-Add the following to `Config/bootstrap.php`
-
-```php
-<?php
-
-App::build(array(
-  'Locale' => array(APP . 'Vendor' . DS . 'vamshop' . DS . 'locale' . DS ),
-), App::APPEND);
+composer require vamshop/locale
 ```
 
 # Tools
