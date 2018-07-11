@@ -2373,7 +2373,7 @@ msgstr "Не могу подключиться к базе данных."
 
 #: InstallManager.php:238
 msgid "Unable to create administrative user. Validation errors:"
-msgstr "Не могу создать администратора. Ошибки:"
+msgstr "Не могу создать администратора. Ошибка."
 
 #: InstallManager.php:312
 msgid "Permission %s granted to %s"
@@ -2546,6 +2546,10 @@ msgstr "Полезные ресурсы"
 #: Template/Install/index.ctp:2
 msgid "Welcome"
 msgstr "Добро пожаловать"
+
+#: Template/Install/index.ctp:2
+msgid "Admin user"
+msgstr "Администратор"
 
 #: Template/Install/index.ctp:7
 msgid "Your tmp directory is writable."
