@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: Vamshop/View/Elements/admin/footer.ctp:11
 msgid "Powered by %s"
-msgstr ""
+msgstr "Работает на %s"
 
 #: Vamshop/View/Elements/admin/header.ctp:18
 #: Dashboards/Config/admin_menu.php:5;11
