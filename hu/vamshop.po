@@ -1101,21 +1101,21 @@ msgid "Pending"
 msgstr "Függőben"
 
 #: /Core/src/Action/Admin/ToggleAction.php:26
-#: /Core/src/Controller/Component/CroogoComponent.php:310
+#: /Core/src/Controller/Component/VamshopComponent.php:310
 msgid "Invalid content"
 msgstr "Érvénytelen tartalom"
 
 #: /Core/src/Action/Admin/ToggleAction.php:37
-#: /Core/src/Controller/Component/CroogoComponent.php:322
+#: /Core/src/Controller/Component/VamshopComponent.php:322
 msgid "Failed toggling field %s to %s"
 msgstr "A mező átállítása a(z) %s értékről a(z) %s értékre sikertelen"
 
-#: /Core/src/Configure/CroogoJsonReader.php:48
+#: /Core/src/Configure/VamshopJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
 msgstr ""
 "Nem lehet betölteni a konfigurációs fájlokat az alábbi útvonallal: ../."
 
-#: /Core/src/Configure/CroogoJsonReader.php:63
+#: /Core/src/Configure/VamshopJsonReader.php:63
 msgid "Could not load configuration files: {0) or {1}"
 msgstr ""
 
@@ -1140,15 +1140,15 @@ msgstr "Feldolgozva: %s"
 msgid "An error occured"
 msgstr "Hiba történt"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:136
+#: /Core/src/Controller/Component/VamshopComponent.php:136
 msgid "Visit website"
 msgstr "Látogassa meg a weboldalt"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:153
+#: /Core/src/Controller/Component/VamshopComponent.php:153
 msgid "Profile"
 msgstr "Profil"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:168
+#: /Core/src/Controller/Component/VamshopComponent.php:168
 msgid "Logout"
 msgstr "Kilépés"
 
@@ -1168,13 +1168,13 @@ msgstr "A feladatnak nincs érvényes kimenete"
 msgid "Action %s is disabled"
 msgstr "Akció (%s) le van tiltva"
 
-#: /Core/src/Shell/CroogoShell.php:34
-msgid "Croogo Utilities"
-msgstr "Croogo segédprogramok"
+#: /Core/src/Shell/VamshopShell.php:34
+msgid "Vamshop Utilities"
+msgstr "Vamshop segédprogramok"
 
-#: /Core/src/Shell/CroogoShell.php:36
-msgid "Upgrade Croogo"
-msgstr "Croogo frissítése"
+#: /Core/src/Shell/VamshopShell.php:36
+msgid "Upgrade Vamshop"
+msgstr "Vamshop frissítése"
 
 #: /Core/src/Shell/ExtShell.php:110
 msgid "Theme cannot be deactivated, instead activate another theme."
@@ -1417,8 +1417,8 @@ msgid "Cancel"
 msgstr "Mégse"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
-msgid "Croogo %s"
-msgstr "Croogo: %s"
+msgid "Vamshop %s"
+msgstr "Vamshop: %s"
 
 #: /Core/src/Template/Element/admin/footer.ctp:11
 msgid "Powered by %s"
@@ -1473,8 +1473,8 @@ msgid "Site down for maintenance."
 msgstr "Az oldalon jelenleg karbantartás folyik."
 
 #: /Dashboards/config/admin_dashboard.php:7
-msgid "Croogo News"
-msgstr "Croogo Hírek"
+msgid "Vamshop News"
+msgstr "Vamshop Hírek"
 
 #: /Dashboards/config/admin_menu.php:7;13
 #: /Dashboards/src/Template/Admin/Dashboards/dashboard.ctp:6
@@ -1578,12 +1578,12 @@ msgstr "Nyelvek"
 msgid "Plugins"
 msgstr "Pluginok"
 
-#: /Extensions/src/CroogoTheme.php:245
+#: /Extensions/src/VamshopTheme.php:245
 #: /Extensions/src/ExtensionsInstaller.php:196
 msgid "Invalid theme"
 msgstr "Érvénytelen téma"
 
-#: /Extensions/src/CroogoTheme.php:266
+#: /Extensions/src/VamshopTheme.php:266
 msgid "Theme %s not found"
 msgstr "Téma (%s) nem található"
 
@@ -2065,7 +2065,7 @@ msgid "Warning: Database \"%s\" is not empty."
 msgstr "Figyelmeztetés: \"A(z) %s\" adatbázis nem üres."
 
 #: /Install/src/Controller/InstallController.php:195
-msgid "There was a problem installing Croogo"
+msgid "There was a problem installing Vamshop"
 msgstr ""
 
 #: /Install/src/Controller/InstallController.php:213
@@ -2278,11 +2278,11 @@ msgid "Installation: %s"
 msgstr ""
 
 #: /Install/src/Template/Layout/install.ctp:6
-msgid "Croogo"
-msgstr "Croogo"
+msgid "Vamshop"
+msgstr "Vamshop"
 
 #: /Install/src/Template/Layout/install.ctp:27
-msgid "Install Croogo"
+msgid "Install Vamshop"
 msgstr "Crogoo telepítése"
 
 #: /Menus/config/admin_menu.php:9;19 /Menus/src/Template/Admin/Links/form.ctp:8
@@ -3957,9 +3957,9 @@ msgstr "A következő névvel van bejelentkezve:"
 #~ msgstr "Címkék"
 
 #~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+#~ "Datasource %s for VamshopTranslateBehavior of model %s is not connected"
 #~ msgstr ""
-#~ "Az adatforrás %s a CroogoTranslateBehavior of model %s nincs hozzáadva"
+#~ "Az adatforrás %s a VamshopTranslateBehavior of model %s nincs hozzáadva"
 
 #~ msgid "Add Role"
 #~ msgstr "Csoport hozzáadása"

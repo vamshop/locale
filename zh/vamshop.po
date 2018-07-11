@@ -1096,20 +1096,20 @@ msgid "Pending"
 msgstr ""
 
 #: /Core/src/Action/Admin/ToggleAction.php:26
-#: /Core/src/Controller/Component/CroogoComponent.php:310
+#: /Core/src/Controller/Component/VamshopComponent.php:310
 msgid "Invalid content"
 msgstr "无效的内容"
 
 #: /Core/src/Action/Admin/ToggleAction.php:37
-#: /Core/src/Controller/Component/CroogoComponent.php:322
+#: /Core/src/Controller/Component/VamshopComponent.php:322
 msgid "Failed toggling field %s to %s"
 msgstr "域 %s 到 %s 的转换失败"
 
-#: /Core/src/Configure/CroogoJsonReader.php:48
+#: /Core/src/Configure/VamshopJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
 msgstr "无法加载有 \"../\" 的配置文件"
 
-#: /Core/src/Configure/CroogoJsonReader.php:63
+#: /Core/src/Configure/VamshopJsonReader.php:63
 msgid "Could not load configuration files: {0) or {1}"
 msgstr ""
 
@@ -1135,15 +1135,15 @@ msgstr ""
 msgid "An error occured"
 msgstr "发生一个错误"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:136
+#: /Core/src/Controller/Component/VamshopComponent.php:136
 msgid "Visit website"
 msgstr "访问网站"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:153
+#: /Core/src/Controller/Component/VamshopComponent.php:153
 msgid "Profile"
 msgstr ""
 
-#: /Core/src/Controller/Component/CroogoComponent.php:168
+#: /Core/src/Controller/Component/VamshopComponent.php:168
 msgid "Logout"
 msgstr ""
 
@@ -1164,13 +1164,13 @@ msgstr "正在执行的动作没有目标"
 msgid "Action %s is disabled"
 msgstr "动作已删除"
 
-#: /Core/src/Shell/CroogoShell.php:34
-msgid "Croogo Utilities"
-msgstr "Croogo工具包"
+#: /Core/src/Shell/VamshopShell.php:34
+msgid "Vamshop Utilities"
+msgstr "Vamshop工具包"
 
-#: /Core/src/Shell/CroogoShell.php:36
-msgid "Upgrade Croogo"
-msgstr "升级Croogo"
+#: /Core/src/Shell/VamshopShell.php:36
+msgid "Upgrade Vamshop"
+msgstr "升级Vamshop"
 
 #: /Core/src/Shell/ExtShell.php:110
 msgid "Theme cannot be deactivated, instead activate another theme."
@@ -1405,8 +1405,8 @@ msgid "Cancel"
 msgstr "删除"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
-msgid "Croogo %s"
-msgstr "Croogo %s"
+msgid "Vamshop %s"
+msgstr "Vamshop %s"
 
 #: /Core/src/Template/Element/admin/footer.ctp:11
 msgid "Powered by %s"
@@ -1461,7 +1461,7 @@ msgid "Site down for maintenance."
 msgstr "网站维护中"
 
 #: /Dashboards/config/admin_dashboard.php:7
-msgid "Croogo News"
+msgid "Vamshop News"
 msgstr ""
 
 #: /Dashboards/config/admin_menu.php:7;13
@@ -1566,12 +1566,12 @@ msgstr "本地化"
 msgid "Plugins"
 msgstr "插件"
 
-#: /Extensions/src/CroogoTheme.php:245
+#: /Extensions/src/VamshopTheme.php:245
 #: /Extensions/src/ExtensionsInstaller.php:196
 msgid "Invalid theme"
 msgstr "无效的主题"
 
-#: /Extensions/src/CroogoTheme.php:266
+#: /Extensions/src/VamshopTheme.php:266
 msgid "Theme %s not found"
 msgstr "%s 主题未找到"
 
@@ -2053,7 +2053,7 @@ msgid "Warning: Database \"%s\" is not empty."
 msgstr "警告： \"%s\" 数据库非空"
 
 #: /Install/src/Controller/InstallController.php:195
-msgid "There was a problem installing Croogo"
+msgid "There was a problem installing Vamshop"
 msgstr ""
 
 #: /Install/src/Controller/InstallController.php:213
@@ -2265,12 +2265,12 @@ msgid "Installation: %s"
 msgstr ""
 
 #: /Install/src/Template/Layout/install.ctp:6
-msgid "Croogo"
-msgstr "Croogo"
+msgid "Vamshop"
+msgstr "Vamshop"
 
 #: /Install/src/Template/Layout/install.ctp:27
-msgid "Install Croogo"
-msgstr "安装Croogo"
+msgid "Install Vamshop"
+msgstr "安装Vamshop"
 
 #: /Menus/config/admin_menu.php:9;19 /Menus/src/Template/Admin/Links/form.ctp:8
 #: /Menus/src/Template/Admin/Links/index.ctp:10
@@ -3865,8 +3865,8 @@ msgstr "欢迎您："
 #~ msgstr "标签"
 
 #~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-#~ msgstr "CroogoTranslateBehavior的数据源 %s 于 模型 %s 没有连接"
+#~ "Datasource %s for VamshopTranslateBehavior of model %s is not connected"
+#~ msgstr "VamshopTranslateBehavior的数据源 %s 于 模型 %s 没有连接"
 
 #~ msgid "Add Role"
 #~ msgstr "添加角色"

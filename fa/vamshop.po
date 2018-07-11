@@ -1101,20 +1101,20 @@ msgid "Pending"
 msgstr "در انتظار"
 
 #: /Core/src/Action/Admin/ToggleAction.php:26
-#: /Core/src/Controller/Component/CroogoComponent.php:310
+#: /Core/src/Controller/Component/VamshopComponent.php:310
 msgid "Invalid content"
 msgstr "محتوای نامعتبر"
 
 #: /Core/src/Action/Admin/ToggleAction.php:37
-#: /Core/src/Controller/Component/CroogoComponent.php:322
+#: /Core/src/Controller/Component/VamshopComponent.php:322
 msgid "Failed toggling field %s to %s"
 msgstr "Failed toggling field %s to %s"
 
-#: /Core/src/Configure/CroogoJsonReader.php:48
+#: /Core/src/Configure/VamshopJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
 msgstr "امکان لود تنظیمات فایل در صورت وجود  ../ در آنها وجود ندارد."
 
-#: /Core/src/Configure/CroogoJsonReader.php:63
+#: /Core/src/Configure/VamshopJsonReader.php:63
 msgid "Could not load configuration files: {0) or {1}"
 msgstr ""
 
@@ -1139,15 +1139,15 @@ msgstr "%s پردازش شد"
 msgid "An error occured"
 msgstr "بروز خطا"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:136
+#: /Core/src/Controller/Component/VamshopComponent.php:136
 msgid "Visit website"
 msgstr "نمایش وب سایت"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:153
+#: /Core/src/Controller/Component/VamshopComponent.php:153
 msgid "Profile"
 msgstr "پروفایل"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:168
+#: /Core/src/Controller/Component/VamshopComponent.php:168
 msgid "Logout"
 msgstr "خروج"
 
@@ -1167,12 +1167,12 @@ msgstr "بدون هدف برای پردازش دستور"
 msgid "Action %s is disabled"
 msgstr "دستور % غیرفعال شده هست."
 
-#: /Core/src/Shell/CroogoShell.php:34
-msgid "Croogo Utilities"
+#: /Core/src/Shell/VamshopShell.php:34
+msgid "Vamshop Utilities"
 msgstr "ابزار کروگو"
 
-#: /Core/src/Shell/CroogoShell.php:36
-msgid "Upgrade Croogo"
+#: /Core/src/Shell/VamshopShell.php:36
+msgid "Upgrade Vamshop"
 msgstr "به روزرسانی کروگو"
 
 #: /Core/src/Shell/ExtShell.php:110
@@ -1411,7 +1411,7 @@ msgid "Cancel"
 msgstr "لغو"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
-msgid "Croogo %s"
+msgid "Vamshop %s"
 msgstr "کروگو %s"
 
 #: /Core/src/Template/Element/admin/footer.ctp:11
@@ -1467,7 +1467,7 @@ msgid "Site down for maintenance."
 msgstr "غیرفعال کردن سایت جهت تعمیرات"
 
 #: /Dashboards/config/admin_dashboard.php:7
-msgid "Croogo News"
+msgid "Vamshop News"
 msgstr "اخبار کروگو"
 
 #: /Dashboards/config/admin_menu.php:7;13
@@ -1572,12 +1572,12 @@ msgstr "محل ها"
 msgid "Plugins"
 msgstr "افزونه ها"
 
-#: /Extensions/src/CroogoTheme.php:245
+#: /Extensions/src/VamshopTheme.php:245
 #: /Extensions/src/ExtensionsInstaller.php:196
 msgid "Invalid theme"
 msgstr "قالب نامعتبر"
 
-#: /Extensions/src/CroogoTheme.php:266
+#: /Extensions/src/VamshopTheme.php:266
 msgid "Theme %s not found"
 msgstr "قالب %s پیدا نشد."
 
@@ -2059,7 +2059,7 @@ msgid "Warning: Database \"%s\" is not empty."
 msgstr "هشدار: بانک اطلاعاتی \"%s\" خالی نبوده و دارای رکورد می باشد."
 
 #: /Install/src/Controller/InstallController.php:195
-msgid "There was a problem installing Croogo"
+msgid "There was a problem installing Vamshop"
 msgstr ""
 
 #: /Install/src/Controller/InstallController.php:213
@@ -2271,11 +2271,11 @@ msgid "Installation: %s"
 msgstr ""
 
 #: /Install/src/Template/Layout/install.ctp:6
-msgid "Croogo"
+msgid "Vamshop"
 msgstr "کروگو"
 
 #: /Install/src/Template/Layout/install.ctp:27
-msgid "Install Croogo"
+msgid "Install Vamshop"
 msgstr "نصب کورگو"
 
 #: /Menus/config/admin_menu.php:9;19 /Menus/src/Template/Admin/Links/form.ctp:8
@@ -3946,8 +3946,8 @@ msgstr "وارد شده به عنوان:"
 #~ msgstr "برچسپ ها"
 
 #~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
-#~ msgstr "منبع داده  %s برای CroogoTranslateBehavior از مدل %s متصل نشده است."
+#~ "Datasource %s for VamshopTranslateBehavior of model %s is not connected"
+#~ msgstr "منبع داده  %s برای VamshopTranslateBehavior از مدل %s متصل نشده است."
 
 #~ msgid "Add Role"
 #~ msgstr "افزودن نقش"

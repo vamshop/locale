@@ -1,4 +1,4 @@
-# German translation of Croogo Application
+# German translation of Vamshop Application
 #
 msgid ""
 msgstr ""
@@ -1099,20 +1099,20 @@ msgid "Pending"
 msgstr "Schwebend"
 
 #: /Core/src/Action/Admin/ToggleAction.php:26
-#: /Core/src/Controller/Component/CroogoComponent.php:310
+#: /Core/src/Controller/Component/VamshopComponent.php:310
 msgid "Invalid content"
 msgstr "Ungültiger Inhalt"
 
 #: /Core/src/Action/Admin/ToggleAction.php:37
-#: /Core/src/Controller/Component/CroogoComponent.php:322
+#: /Core/src/Controller/Component/VamshopComponent.php:322
 msgid "Failed toggling field %s to %s"
 msgstr ""
 
-#: /Core/src/Configure/CroogoJsonReader.php:48
+#: /Core/src/Configure/VamshopJsonReader.php:48
 msgid "Cannot load configuration files with ../ in them."
 msgstr "Kann die Konfigurationsdateien mit ../ nicht laden."
 
-#: /Core/src/Configure/CroogoJsonReader.php:63
+#: /Core/src/Configure/VamshopJsonReader.php:63
 msgid "Could not load configuration files: {0) or {1}"
 msgstr ""
 
@@ -1138,15 +1138,15 @@ msgstr "%s verarbeitet"
 msgid "An error occured"
 msgstr "Ein Fehler ist aufgetreten."
 
-#: /Core/src/Controller/Component/CroogoComponent.php:136
+#: /Core/src/Controller/Component/VamshopComponent.php:136
 msgid "Visit website"
 msgstr "Webseite besuchen"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:153
+#: /Core/src/Controller/Component/VamshopComponent.php:153
 msgid "Profile"
 msgstr "Profil"
 
-#: /Core/src/Controller/Component/CroogoComponent.php:168
+#: /Core/src/Controller/Component/VamshopComponent.php:168
 msgid "Logout"
 msgstr "Ausloggen"
 
@@ -1167,12 +1167,12 @@ msgstr "Kein Ziel zur verarbeitenden Aktion"
 msgid "Action %s is disabled"
 msgstr "Aktion gelöscht"
 
-#: /Core/src/Shell/CroogoShell.php:34
-msgid "Croogo Utilities"
+#: /Core/src/Shell/VamshopShell.php:34
+msgid "Vamshop Utilities"
 msgstr ""
 
-#: /Core/src/Shell/CroogoShell.php:36
-msgid "Upgrade Croogo"
+#: /Core/src/Shell/VamshopShell.php:36
+msgid "Upgrade Vamshop"
 msgstr ""
 
 #: /Core/src/Shell/ExtShell.php:110
@@ -1407,8 +1407,8 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #: /Core/src/Template/Element/admin/footer.ctp:8
-msgid "Croogo %s"
-msgstr "Croogo %s"
+msgid "Vamshop %s"
+msgstr "Vamshop %s"
 
 #: /Core/src/Template/Element/admin/footer.ctp:11
 msgid "Powered by %s"
@@ -1463,7 +1463,7 @@ msgid "Site down for maintenance."
 msgstr "Seite geschlossen wegen Wartungsarbeiten"
 
 #: /Dashboards/config/admin_dashboard.php:7
-msgid "Croogo News"
+msgid "Vamshop News"
 msgstr ""
 
 #: /Dashboards/config/admin_menu.php:7;13
@@ -1568,12 +1568,12 @@ msgstr "Locale"
 msgid "Plugins"
 msgstr "Plugins"
 
-#: /Extensions/src/CroogoTheme.php:245
+#: /Extensions/src/VamshopTheme.php:245
 #: /Extensions/src/ExtensionsInstaller.php:196
 msgid "Invalid theme"
 msgstr "Ungültiges Theme"
 
-#: /Extensions/src/CroogoTheme.php:266
+#: /Extensions/src/VamshopTheme.php:266
 msgid "Theme %s not found"
 msgstr "Theme %s nicht gefunden"
 
@@ -2056,7 +2056,7 @@ msgid "Warning: Database \"%s\" is not empty."
 msgstr "Warnung: Datenbank \"%s\" ist nicht leer."
 
 #: /Install/src/Controller/InstallController.php:195
-msgid "There was a problem installing Croogo"
+msgid "There was a problem installing Vamshop"
 msgstr ""
 
 #: /Install/src/Controller/InstallController.php:213
@@ -2270,12 +2270,12 @@ msgid "Installation: %s"
 msgstr ""
 
 #: /Install/src/Template/Layout/install.ctp:6
-msgid "Croogo"
-msgstr "Croogo"
+msgid "Vamshop"
+msgstr "Vamshop"
 
 #: /Install/src/Template/Layout/install.ctp:27
-msgid "Install Croogo"
-msgstr "Croogo installieren"
+msgid "Install Vamshop"
+msgstr "Vamshop installieren"
 
 #: /Menus/config/admin_menu.php:9;19 /Menus/src/Template/Admin/Links/form.ctp:8
 #: /Menus/src/Template/Admin/Links/index.ctp:10
@@ -3901,9 +3901,9 @@ msgstr "Sie sind eingeloggt als:"
 #~ msgstr "Wysiwyg Editor aktivieren"
 
 #~ msgid ""
-#~ "Datasource %s for CroogoTranslateBehavior of model %s is not connected"
+#~ "Datasource %s for VamshopTranslateBehavior of model %s is not connected"
 #~ msgstr ""
-#~ "Datenquelle %s für CroogoTranslateBehavior vom Model %s ist nicht "
+#~ "Datenquelle %s für VamshopTranslateBehavior vom Model %s ist nicht "
 #~ "verbunden"
 
 #~ msgid "Add Role"
