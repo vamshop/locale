@@ -1777,7 +1777,7 @@ msgstr ""
 
 #: Example/Config/admin_dashboard.php:5
 msgid "Welcome"
-msgstr ""
+msgstr "Добро пожаловать"
 
 #: Example/View/Example/index.ctp:3
 msgid "content here"
@@ -2363,276 +2363,245 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: Install/Console/Command/InstallShell.php:27
+#: InstallManager.php:96
+msgid "Could not connect to database: "
+msgstr "Не могу подключиться к базе данных: "
+
+#: InstallManager.php:100
+msgid "Could not connect to database."
+msgstr "Не могу подключиться к базе данных."
+
+#: InstallManager.php:238
+msgid "Unable to create administrative user. Validation errors:"
+msgstr "Не могу создать администратора. Ошибки:"
+
+#: InstallManager.php:312
+msgid "Permission %s granted to %s"
+msgstr "Доступ %s предоставлен к %s"
+
+#: Controller/InstallController.php:183
+msgid "Warning: Database \"%s\" is not empty."
+msgstr "Предупреждение: База данных \"%s\" не пустая, очистите базу данных."
+
+#: Controller/InstallController.php:195
+msgid "There was a problem installing Vamshop"
+msgstr "Возникла проблема при установке Vamshop"
+
+#: Controller/InstallController.php:213
+msgid "Error installing access control objects"
+msgstr "Ошибка при создании прав доступа"
+
+#: Shell/InstallShell.php:48
 msgid "Install Utilities"
-msgstr ""
+msgstr "Установочные утилиты"
 
-#: Install/Console/Command/InstallShell.php:108
+#: Shell/InstallShell.php:133
 msgid "DataSource"
-msgstr ""
+msgstr "База данных"
 
-#: Install/Console/Command/InstallShell.php:115
-#: Install/View/Install/database.ctp:58
+#: Shell/InstallShell.php:140
+#: Template/Install/database.ctp:47;50
 msgid "Host"
-msgstr ""
+msgstr "Сервер"
 
-#: Install/Console/Command/InstallShell.php:116
-#: Install/View/Install/database.ctp:66
+#: Shell/InstallShell.php:141
+#: Template/Install/database.ctp:53;56
 msgid "Login"
-msgstr "Войти"
+msgstr "Имя пользователя"
 
-#: Install/Console/Command/InstallShell.php:117;153
-#: Install/View/Install/database.ctp:74 Users/View/Users/admin_form.ctp:92
-#: Users/View/Users/admin_login.ctp:15 Users/View/Users/login.ctp:7
+#: Shell/InstallShell.php:142;189
+#: Template/Install/database.ctp:59;62
 msgid "Password"
 msgstr "Пароль"
 
-#: Install/Console/Command/InstallShell.php:118
-#: Install/View/Install/database.ctp:47
+#: Shell/InstallShell.php:143
+#: Template/Install/database.ctp:2;37
 msgid "Database"
-msgstr ""
+msgstr "База данных"
 
-#: Install/Console/Command/InstallShell.php:119
-#: Install/View/Install/database.ctp:89
-msgid "Prefix"
-msgstr ""
-
-#: Install/Console/Command/InstallShell.php:120
-#: Install/View/Install/database.ctp:96
+#: Shell/InstallShell.php:145
+#: Template/Install/database.ctp:71;74
 msgid "Port"
-msgstr ""
+msgstr "Порт"
 
-#: Install/Console/Command/InstallShell.php:146
-#: Install/View/Install/adminuser.ctp:13 Users/View/Users/admin_form.ctp:47
-#: Users/View/Users/admin_login.ctp:9 Users/View/Users/forgot.ctp:6
-#: Users/View/Users/login.ctp:6
+#: Shell/InstallShell.php:145
+#: Template/Install/database.ctp:71;74
+msgid "Next step"
+msgstr "Продолжить"
+
+#: Shell/InstallShell.php:182
+#: Template/Install/admin_user.ctp:8;10
 msgid "Username"
 msgstr "Имя пользователя"
 
-#: Install/Console/Command/InstallShell.php:155
-#: Install/View/Install/adminuser.ctp:26 Users/View/Users/admin_form.ctp:96
-#: Users/View/Users/admin_reset_password.ctp:35 Users/View/Users/reset.ctp:7
+#: Shell/InstallShell.php:191
+#: Template/Install/admin_user.ctp:19;23
 msgid "Verify Password"
-msgstr "Повтор пароля"
+msgstr "Подтвердите пароль"
 
-#: Install/Console/Command/InstallShell.php:217
-msgid "Permission %s granted to %s"
-msgstr ""
-
-#: Install/Controller/InstallController.php:101
-msgid "Installation: Welcome"
-msgstr ""
-
-#: Install/Controller/InstallController.php:116
-msgid "Step 1: Database"
-msgstr ""
-
-#: Install/Controller/InstallController.php:162
-msgid "Step 2: Build database"
-msgstr ""
-
-#: Install/Controller/InstallController.php:170
-msgid "Warning: Database \"%s\" is not empty."
-msgstr ""
-
-#: Install/Controller/InstallController.php:222
-msgid "Installation successful"
-msgstr ""
-
-#: Install/Controller/InstallController.php:230
-msgid "Installation failed"
-msgstr ""
-
-#: Install/Controller/InstallController.php:231
-msgid "Installation failed: Unable to create settings file"
-msgstr ""
-
-#: Install/Lib/AssetGenerator.php:100
-msgid "CSS : %s created"
-msgstr ""
-
-#: Install/Lib/AssetGenerator.php:103
-msgid "CSS : %s failed"
-msgstr ""
-
-#: Install/Lib/AssetGenerator.php:120
-msgid "JS  : %s created"
-msgstr ""
-
-#: Install/Lib/AssetGenerator.php:123
-msgid "JS  : %s failed"
-msgstr ""
-
-#: Install/Lib/AssetGenerator.php:165
-msgid "Font: %s copied"
-msgstr ""
-
-#: Install/Lib/AssetGenerator.php:168
-msgid "File: %s not copied"
-msgstr ""
-
-#: Install/Lib/InstallManager.php:38
-msgid "Could not copy database.php file."
-msgstr ""
-
-#: Install/Lib/InstallManager.php:48
-msgid "Could not write database.php file."
-msgstr ""
-
-#: Install/Lib/InstallManager.php:56
-msgid "Could not connect to database: "
-msgstr ""
-
-#: Install/Lib/InstallManager.php:59
-msgid "Could not connect to database."
-msgstr ""
-
-#: Install/View/Install/adminuser.ctp:10
-msgid "Step 3: Create Admin User"
-msgstr ""
-
-#: Install/View/Install/adminuser.ctp:19
-#: Users/View/Users/admin_reset_password.ctp:31
+#: Template/Install/admin_user.ctp:13;16
 msgid "New Password"
 msgstr "Новый пароль"
 
-#: Install/View/Install/data.ctp:6
+#: Template/Install/admin_user.ctp:27
+msgid "Finalize installation"
+msgstr "Завершение установки"
+
+#: Template/Install/data.ctp:2
+msgid "Step 2: Build database"
+msgstr "Шаг 2: Создание базы данных"
+
+#: Template/Install/data.ctp:10
 msgid "Create tables and load initial data"
-msgstr ""
+msgstr "Создание таблиц и загрузка данных"
 
-#: Install/View/Install/data.ctp:12
+#: Template/Install/data.ctp:16
 msgid "Build database"
-msgstr ""
+msgstr "Создание базы данных"
 
-#: Install/View/Install/data.ctp:19
+#: Template/Install/data.ctp:23
 msgid "Click here to build your database"
-msgstr ""
+msgstr "Нажмите чтобы создать базу данных"
 
-#: Install/View/Install/database.ctp:20
+#: Template/Install/database.ctp:12
 msgid "Warning"
-msgstr ""
+msgstr "Предупреждение"
 
-#: Install/View/Install/database.ctp:21
-msgid "A `database.php` file already exists."
-msgstr ""
+#: Template/Install/database.ctp:13
+msgid "A database configuration already exists."
+msgstr "Доступ к базе данных уже был настроен ранее."
 
-#: Install/View/Install/database.ctp:24
+#: Template/Install/database.ctp:16
 msgid "Valid"
-msgstr ""
+msgstr "Правильная"
 
-#: Install/View/Install/database.ctp:27
+#: Template/Install/database.ctp:19
 msgid "Invalid"
-msgstr ""
+msgstr "Ошибка"
 
-#: Install/View/Install/database.ctp:30
-msgid "This file is %s."
-msgstr ""
+#: Template/Install/database.ctp:22
+msgid "The configuration is %s."
+msgstr "Конфигурация %s"
 
-#: Install/View/Install/database.ctp:35
-msgid "Reuse this file and proceed."
-msgstr ""
+#: Template/Install/database.ctp:26
+msgid "Reuse this configuration and proceed"
+msgstr "Использовать уже существующий доступ к базе данных"
 
-#: Install/View/Install/database.ctp:40
-msgid "This file will be replaced."
-msgstr ""
+#: Template/Install/database.ctp:30
+msgid "or complete the form below to replace it."
+msgstr "либо заполните форму ниже для новой конфигурации."
 
-#: Install/View/Install/database.ctp:60
+#: Template/Install/database.ctp:30
+msgid "This configuration will be replaced."
+msgstr "Настройки будут перезаписаны."
+
+#: Template/Install/database.ctp:48
 msgid "Database hostname or IP Address"
-msgstr ""
+msgstr "Сервер базы данных или IP адрес"
 
-#: Install/View/Install/database.ctp:68
+#: Template/Install/database.ctp:54
 msgid "Database login/username"
-msgstr ""
+msgstr "Логин/имя пользователя базы данных"
 
-#: Install/View/Install/database.ctp:75
+#: Template/Install/database.ctp:60
 msgid "Database password"
-msgstr ""
+msgstr "Пароль для доступа к базе данных"
 
-#: Install/View/Install/database.ctp:83
+#: Template/Install/database.ctp:66
 msgid "Database name"
-msgstr ""
+msgstr "Название базы данных"
 
-#: Install/View/Install/database.ctp:90
-msgid "Table prefix (leave blank if unknown)"
-msgstr ""
-
-#: Install/View/Install/database.ctp:97
+#: Template/Install/database.ctp:72
 msgid "Database port (leave blank if unknown)"
-msgstr ""
+msgstr "Порт базы данных (оставьте поле пустым если не знаете)"
 
-#: Install/View/Install/finish.ctp:6
-msgid ""
-"\n"
-"\t\tThe user %s has been created with administrative rights."
-msgstr ""
+#: Template/Install/finish.ctp:2
+msgid "Successful"
+msgstr "Успешно завершена"
 
-#: Install/View/Install/finish.ctp:13
+#: Template/Install/finish.ctp:5
+msgid "The user %s has been created with administrative rights."
+msgstr "Пользователь %s создан с правами администратора."
+
+#: Template/Install/finish.ctp:11
 msgid "Admin panel: %s"
-msgstr ""
+msgstr "Админка: %s"
 
-#: Install/View/Install/finish.ctp:18
+#: Template/Install/finish.ctp:17
 msgid "You can start with %s or jump in and %s."
-msgstr ""
+msgstr "Начните с %s, либо %s"
 
-#: Install/View/Install/finish.ctp:19
+#: Template/Install/finish.ctp:18
 msgid "configuring your site"
-msgstr ""
+msgstr "настройки сайта"
 
-#: Install/View/Install/finish.ctp:20
+#: Template/Install/finish.ctp:24
 msgid "create a blog post"
-msgstr ""
+msgstr "добавьте запись"
 
-#: Install/View/Install/finish.ctp:27
+#: Template/Install/finish.ctp:35
 msgid "Resources"
-msgstr ""
+msgstr "Полезные ресурсы"
 
-#: Install/View/Install/index.ctp:8
+#: Template/Install/index.ctp:2
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: Template/Install/index.ctp:7
 msgid "Your tmp directory is writable."
-msgstr ""
+msgstr "Права доступа на папку tmp установлены верно."
 
-#: Install/View/Install/index.ctp:11
+#: Template/Install/index.ctp:10
 msgid "Your tmp directory is NOT writable."
-msgstr ""
+msgstr "Папка tmp только для чтения. Установите права доступа на запись."
 
-#: Install/View/Install/index.ctp:16
+#: Template/Install/index.ctp:15
 msgid "Your config directory is writable."
-msgstr ""
+msgstr "Права доступа на папку config установлены верно."
 
-#: Install/View/Install/index.ctp:19
+#: Template/Install/index.ctp:18
 msgid "Your config directory is NOT writable."
-msgstr ""
+msgstr "Папка config только для чтения. Установите права доступа на запись."
 
-#: Install/View/Install/index.ctp:26
-msgid "PHP version %s %s %s"
-msgstr ""
+#: Template/Install/index.ctp:24
+msgid "PHP version %s >= %s"
+msgstr "Версия PHP %s >= %s"
 
-#: Install/View/Install/index.ctp:29
+#: Template/Install/index.ctp:29
 msgid "PHP version %s < %s"
-msgstr ""
+msgstr "Версия PHP %s < %s"
 
-#: Install/View/Install/index.ctp:37
-msgid "CakePhp version %s %s %s"
-msgstr ""
+#: Template/Install/index.ctp:36
+msgid "CakePhp version %s >= %s"
+msgstr "Версия CakePhp %s >= %s"
 
-#: Install/View/Install/index.ctp:40
+#: Template/Install/index.ctp:42
 msgid "CakePHP version %s < %s"
-msgstr ""
+msgstr "Версия CakePHP %s < %s"
 
-#: Install/View/Install/index.ctp:47
-msgid "Install"
-msgstr ""
+#: Template/Install/index.ctp:48
+msgid "Start installation"
+msgstr "Начать установку"
 
-#: Install/View/Install/index.ctp:52
+#: Template/Install/index.ctp:53
 msgid "Click here to begin installation"
-msgstr ""
+msgstr "Нажмите здесь для начала установки"
 
-#: Install/View/Install/index.ctp:57
+#: Template/Install/index.ctp:58
 msgid "Installation cannot continue as minimum requirements are not met."
-msgstr ""
+msgstr "Установка не может быть продолжена, не выполнены необходимые для работы условия."
 
-#: Install/View/Layouts/install.ctp:27
+#: Template/Layout/install.ctp:6;34
+msgid "Installation: %s"
+msgstr "Установка: %s"
+
+#: Template/Layout/install.ctp:6
+msgid "Vamshop"
+msgstr "Vamshop"
+
+#: Template/Layout/install.ctp:27
 msgid "Install Vamshop"
-msgstr ""
+msgstr "Установка Vamshop"
 
 #: Menus/Config/admin_menu.php:5;15 Menus/Controller/MenusController.php:68
 #: Menus/View/Links/admin_form.ctp:9 Menus/View/Links/admin_index.ctp:9
