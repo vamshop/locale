@@ -2947,6 +2947,9 @@ msgstr "Результаты поиска: %s"
 msgid "Settings"
 msgstr "Настройки"
 
+msgid "Background Image"
+msgstr "Фон"
+
 #: Settings/Config/admin_menu.php:16
 msgid "Site"
 msgstr "Сайт"
@@ -3637,7 +3640,7 @@ msgstr ""
 
 #: Users/View/Users/admin_form.ctp:62
 msgid "Timezone"
-msgstr ""
+msgstr "Временная зона"
 
 #: Users/View/Users/admin_form.ctp:80
 msgid "Send Activation Email"
