@@ -27,6 +27,10 @@ msgstr "Разрешения"
 msgid "Access Control"
 msgstr ""
 
+#: Acl/Config/admin_menu.php:15
+msgid "Bulk action"
+msgstr "Выделенные"
+
 #: Acl/Console/Command/ExtrasShell.php:93
 msgid "Plugin to process"
 msgstr ""
@@ -815,6 +819,11 @@ msgstr ""
 #: Nodes/View/Nodes/admin_index.ctp:66
 msgid "preview"
 msgstr ""
+
+#: /Blocks/src/Template/Admin/Blocks/index.ctp:108;116
+#: /Contacts/src/Template/Admin/Messages/index.ctp:104;111
+msgid "Bulk action"
+msgstr "Выделенные"
 
 #: Blocks/View/Blocks/admin_index.ctp:114
 #: Comments/View/Comments/admin_index.ctp:109
@@ -2281,6 +2290,16 @@ msgstr ""
 #: FileManager/View/Attachments/admin_edit.ctp:37
 msgid "Mime Type"
 msgstr ""
+
+#: /FileManager/src/Template/Admin/Attachments/index.ctp:32
+msgid "URL"
+msgstr "URL"
+
+#: /FileManager/src/Template/Admin/Attachments/index.ctp:93
+#: /Menus/src/Template/Admin/Links/index.ctp:95;106
+#: /Nodes/src/Template/Admin/Nodes/index.ctp:131
+msgid "Bulk actions"
+msgstr "Выделенные"
 
 #: FileManager/View/Elements/admin/attachments_search.ctp:28
 #: Nodes/View/Elements/search.ctp:7
