@@ -2121,6 +2121,10 @@ msgstr "Активная тема"
 msgid "Regions supported: "
 msgstr "Поддерживаемые регионы: "
 
+#: Extensions/View/ExtensionsThemes/admin_index.ctp:60;111
+msgid "Menus supported: "
+msgstr "Поддерживаемые меню: "
+
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:66
 msgid "Available Themes"
 msgstr "Доступные темы"
